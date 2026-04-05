@@ -27,7 +27,7 @@ const Index = () => {
             💰 Smart Finance Tracker
           </h1>
           <p className="text-sm text-muted-foreground mt-1">
-            Track income, expenses, and get financial insights
+            Track income, expenses, and get financial insights · Tracks transactions over time
           </p>
         </div>
       </header>
