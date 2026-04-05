@@ -34,7 +34,7 @@ export function BalanceCard({ balance, totalIncome, totalExpenses }: Props) {
             </div>
             <div>
               <p className="text-sm text-muted-foreground">Income</p>
-              <p className="text-2xl font-bold text-income">${totalIncome.toFixed(2)}</p>
+              <p className="text-2xl font-bold text-income">₹{totalIncome.toFixed(2)}</p>
             </div>
           </div>
         </CardContent>
