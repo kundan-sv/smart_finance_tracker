@@ -66,7 +66,7 @@ export function SpendingChart({ data }: Props) {
                   <Cell key={i} fill={COLORS[i % COLORS.length]} />
                 ))}
               </Pie>
-              <Tooltip formatter={(value: number) => `$${value.toFixed(2)}`} />
+              <Tooltip formatter={(value: number) => `₹${value.toFixed(2)}`} />
             </PieChart>
           </ResponsiveContainer>
           <div className="flex flex-wrap gap-2 mt-2 justify-center">
