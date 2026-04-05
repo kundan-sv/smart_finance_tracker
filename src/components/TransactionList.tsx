@@ -1,4 +1,4 @@
-import { Transaction, SUSPICIOUS_THRESHOLD } from "@/lib/finance";
+import { Transaction, SUSPICIOUS_THRESHOLD, formatINR } from "@/lib/finance";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
