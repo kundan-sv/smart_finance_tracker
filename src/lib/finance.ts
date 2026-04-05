@@ -19,7 +19,7 @@ export const CATEGORIES = [
   "Other",
 ] as const;
 
-export const SUSPICIOUS_THRESHOLD = 300;
+export const SUSPICIOUS_THRESHOLD = 5000;
 
 const STORAGE_KEY = "finance-tracker-transactions";
 
